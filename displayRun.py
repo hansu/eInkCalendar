@@ -13,7 +13,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 from PIL.Image import Image as TImage
 from PIL.ImageDraw import ImageDraw as TImageDraw
 
-import lib.epd5in83b_V2 as eInk
+import lib.epd7in5b_V2 as eInk
 from dataHelper import get_events, get_birthdays
 from displayHelpers import *
 from settings import LOCALE, ROTATE_IMAGE

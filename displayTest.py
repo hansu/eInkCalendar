@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import lib.epd5in83b_V2 as eInk
+import lib.epd7in5b_V2 as eInk
 from PIL import Image, ImageDraw, ImageFont
 import sys
 import os
@@ -16,7 +16,7 @@ def clearDisplay():
 pictureDict = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'pictures')
 
 try:
-    logging.info("epd5in83b_V2 Demo")
+    logging.info("epd7in5b_V2 Demo")
 
     epd = eInk.EPD()
     logging.info("init and Clear")

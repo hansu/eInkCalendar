@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw, ImageFont
 from PIL.Image import Image as TImage
 from PIL.ImageDraw import ImageDraw as TImageDraw
 
-import lib.epd5in83b_V2 as eInk
+import lib.epd7in5b_V2 as eInk
 
 logger = logging.getLogger('app')
 CURRENT_DICT = os.path.dirname(os.path.realpath(__file__))
